@@ -40,9 +40,6 @@ gerenciador-de-tarefas/
 │   ├── index.php
 │   └── utils.php
 └── README.md
-```
-
-*Observação: Estrutura pode variar dependendo da sua organização.*
 
 ---
 
