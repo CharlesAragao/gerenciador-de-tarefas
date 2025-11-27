@@ -1,0 +1,186 @@
+
+/* Gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Links e botões */
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background: #f2f8ff;
+}
+
+/* Formatação das Prioridades */
+.prioridade {
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+}
+
+/* Prioridade Baixa = Verde */
+.prioridade.baixa {
+    background: #2ecc71;
+}
+
+/* Prioridade Média = Amarelo */
+.prioridade.media {
+    background: #f1c40f;
+    color: #444;
+}
+
+/* Prioridade Alta = Vermelho */
+.prioridade.alta {
+    background: #e74c3c;
+}
+
+/* Formulários */
+form {
+    background: white;
+    padding: 25px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 96.5%;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button[type="submit"] {
+    background: #27ae60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background: #1e8449;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    table {
+        font-size: 13px;
+    }
+
+    td, th {
+        padding: 8px;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Alertas */
+.alert {
+    padding: 12px 18px;
+    margin: 15px auto;
+    border-radius: 6px;
+    font-weight: bold;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Sucesso ao adicionar */
+.alert.success-add {
+    background: #d4f8d4;
+    border-left: 6px solid #2ecc71;
+    color: #1b6e3d;
+}
+
+/* Sucesso ao editar */
+.alert.success-edit {
+    background: #dfe9ff;
+    border-left: 6px solid #3498db;
+    color: #1f4d85;
+}
+
+/* Sucesso ao excluir */
+.alert.error-delete {
+    background: #ffe5e5;
+    border-left: 6px solid #e74c3c;
+    color: #8a1e1e;
+}
+
+/* Footer com copyright */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    color: #555;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
