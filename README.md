@@ -23,7 +23,7 @@ O objetivo do projeto é demonstrar conhecimentos básicos de desenvolvimento we
 ## 🗂️ Estrutura do Projeto
 
 ```
-crud-ap2/
+gerenciador-de-tarefas/
 ├── actions/
 │   └── processa_adicionar.php
 │   └── processa_editar.php
@@ -83,7 +83,7 @@ crud-ap2/
 
 ---
 
-## 👤 Autor
+## 👨‍💻 Autor
 
 **Charles Aragão**
 
